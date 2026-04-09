@@ -1,0 +1,4 @@
+pip uninstall torch torchvision easyocr -y
+pip install --user torch torchvision --index-url https://download.pytorch.org/whl/cpu
+pip install --user easyocr
+pip install "numpy<2" –user
